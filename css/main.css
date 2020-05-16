@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+  font-family: bol;
+  src: url("../font/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: light;
+  src: url("../font/Arimo-Regular.ttf");
+}
+@font-face {
+  font-family: tillte;
+  src: url("../font/Arimo-Bold.ttf");
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 120vh;
+	color: gainsboro;
+	
+}
+
+.container01{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	scoll-snap-type: y mandatory;
+background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav{
+	width: 100%;
+	height: 8%;
+	position: fixed;
+	
+
+}
+.logo{
+	width: 30%;
+	height: 15%;
+	float: left;
+	padding: 2% 5%;
+	font-family: bol;
+	font-size: 22pt;
+	color:gainsboro;
+}
+
+.menu{
+	width: 55%;
+	height: 5%;
+	float: right;
+	font-family: light;
+	font-size: 14pt;
+ 
+	
+}
+
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	
+}
+.menu ul li{
+	padding: 5px 30px 5px 30px;
+	
+}
+
+.menu ul li a{
+	color: gainsboro;
+	text-decoration: none;
+}
+
+
+
+/*icon social*/
+.nav01{
+	width: 3%;
+	height: 100%;
+	position: fixed;
+	top:80%;
+	left: 3%;
+}
+.nav01 ul{
+	list-style: none;
+}
+.nav01 ul li{
+	padding: 4% 2% 4% 2%;
+}
+.nav01 ul li a {
+	color:gainsboro;
+}
+
+
+.scroll{
+	width: 10%;
+	height: 10%;
+	position:fixed;
+	right: 0;
+	top:75%;
+	margin-right: 2%;
+	transform: rotate(90deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section{
+	width: 100%;
+	height: 120vh;
+	
+}
+
+
+
+#home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.text{
+	width: 40%;
+    height: 48%;
+
+
+}
+
+.text h{
+	font-size: 150pt;
+	font-family: bol;
+}
+
+.text p,p1{
+	font-size: 14pt;
+	font-family: light;
+	padding-left: 25%;
+	
+}
+.text p1{
+	padding-left: 53%;
+}
+
+
+.keet{
+	width: 50%;
+    height: 18%;
+	margin-left: 25%;
+	margin-top: 15%;
+    font-family: light;
+
+}
+
+.keet button {
+ background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: white;
+  padding: 2% 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  margin: 1% 1.5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: light;
+}
+
+ h1{
+	font-family: tillte;
+	font-size: 24pt;
+}
+
+.left{
+	width: 30%;
+	height: 70%;
+	float: left;
+	
+	justify-content: center;
+  align-items: center;
+  align-content: center;
+	margin: 10% 10% 10% 10%;
+}
+h4{
+	font-size: 16pt;
+	font-family: tillte;
+}
+
+p{
+	font-size: 12pt;
+	font-family: light;
+}
+.right{
+	width: 50%;
+	height: 80%;
+	float: right;
+
+	position: relative;
+	top: 6%;
+}
+
+.abouta{
+	width: 50%;
+	height: 100%;
+	float: left;
+	
+}
+
+.abouta img{
+	width: 350px;
+	height: 525px;
+	margin: 10%;
+	z-index: 50;
+	float: left;
+}
+
+.mau{
+	width: 150px;
+	height: 325px;
+	transition: background-color 0.5s ease;
+	background: #763626;
+	margin: 15% 20% 15% 35%;
+	z-index: 1;
+	float: left;
+	padding: 10% 10% 10% 10%;
+}
+
+.mau:hover{
+	background-color: #693d3d;
+}
+
+.img01{
+	 transition: width 1.8s, height 1.8s, transform .9s;
+}
+
+.img01:hover{
+	width: 400px;
+	height: 575px;
+	transform: rotate(360deg);
+}
+
+
+.aboutb{
+	width: 30%;
+	height: 30%;
+	float: right;
+	
+	justify-content: center;
+  align-items: center;
+  align-content: center;
+	margin: 20% 15% 5% 5%;
+	
+}
+
+.aboutb button{
+background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: white;
+  padding: 2% 4%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  margin:1% 1.5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: light;
+}
+
+
